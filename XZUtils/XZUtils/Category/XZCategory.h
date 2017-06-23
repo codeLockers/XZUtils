@@ -13,4 +13,6 @@
 #import "NSDate+XZComponent.h"
 #import "NSDate+XZFunction.h"
 
+#import "UIColor+XZGenerate.h"
+
 #endif /* XZCategory_h */
