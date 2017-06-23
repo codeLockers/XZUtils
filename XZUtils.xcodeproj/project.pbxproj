@@ -21,6 +21,7 @@
 		97A39DC91EFD07CA008763EC /* UIColor+XZGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */; };
 		97A39DCC1EFD0A11008763EC /* UIView+XZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */; };
 		97A39DCF1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */; };
+		97A39DD21EFD0DC4008763EC /* UIImage+XZBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZFrame.m"; sourceTree = "<group>"; };
 		97A39DCD1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XZNavigationBar.h"; sourceTree = "<group>"; };
 		97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XZNavigationBar.m"; sourceTree = "<group>"; };
+		97A39DD01EFD0DC4008763EC /* UIImage+XZBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZBitmap.h"; sourceTree = "<group>"; };
+		97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZBitmap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */,
 				97A39DCD1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.h */,
 				97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */,
+				97A39DD01EFD0DC4008763EC /* UIImage+XZBitmap.h */,
+				97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				97A39DC51EFD0694008763EC /* NSDate+XZComponent.m in Sources */,
 				97A39D8F1EFCAFCD008763EC /* XZUtils.m in Sources */,
 				97A39D881EFCAF9A008763EC /* NSDate+XZFormat.m in Sources */,
+				97A39DD21EFD0DC4008763EC /* UIImage+XZBitmap.m in Sources */,
 				97A39D8C1EFCAFC2008763EC /* XZFileManager.m in Sources */,
 				97A39D6F1EFCAEEB008763EC /* AppDelegate.m in Sources */,
 				97A39D6C1EFCAEEB008763EC /* main.m in Sources */,

@@ -19,4 +19,6 @@
 
 #import "UINavigationController+XZNavigationBar.h"
 
+#import "UIImage+XZBitmap.h"
+
 #endif /* XZCategory_h */
