@@ -17,4 +17,6 @@
 
 #import "UIView+XZFrame.h"
 
+#import "UINavigationController+XZNavigationBar.h"
+
 #endif /* XZCategory_h */
