@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const XZ_DateFormat_Default;
+
 @interface NSDate (XZFormat)
+
+@property (nonatomic, readonly) NSCalendar * xz_calendar;
+
+- (NSString *)xz_stringForFormat:(NSString *)format;
++ (NSDate *)xz_dateFromDateStr:(NSString *)dateStr forFormat:(NSString *)format;
+
 
 @end

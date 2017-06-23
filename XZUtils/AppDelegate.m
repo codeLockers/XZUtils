@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XZCategory.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"%@",[NSDate date].xz_chineseYear);
+    NSLog(@"%@",[NSDate date].xz_chineseMonth);
+    NSLog(@"%@",[NSDate date].xz_chineseDay);
+    NSLog(@"%@",[NSDate date].xz_chineseShortWeekday);
+    NSLog(@"%@",[NSDate date].xz_chineseLongWeekday);
+    NSLog(@"%ld",(long)[NSDate date].xz_numberOfDaysInCurrentMonth);
+    NSLog(@"%ld",(long)[NSDate date].xz_numberOfDaysInPreviousMonth);
+    NSLog(@"%ld",(long)[NSDate date].xz_numberOfDaysInNextMonth);
     return YES;
 }
 
