@@ -94,6 +94,21 @@ Pod::Spec.new do |s|
       category.source_files = "XZUtils/XZUtils/Category/*.{h,m,mm,c}"
       category.public_header_files =  "XZUtils/XZUtils/Category/*.h"
     end
+  
+  s.subspec 'Macros' do |macros|
+      macros.source_files = "XZUtils/XZUtils/Macros/*.{h,m,mm,c}"
+      macros.public_header_files =  "XZUtils/XZUtils/Macros/*.h"
+    end
+
+  s.subspec 'Manager' do |manager|
+      manager.source_files = "XZUtils/XZUtils/Manager/*.{h,m,mm,c}"
+      manager.public_header_files =  "XZUtils/XZUtils/Manager/*.h"
+    end
+
+  s.subspec 'Utils' do |utils|
+      utils.source_files = "XZUtils/XZUtils/Utils/*.{h,m,mm,c}"
+      utils.public_header_files =  "XZUtils/XZUtils/Utils/*.h"
+    end
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
