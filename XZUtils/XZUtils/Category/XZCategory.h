@@ -15,4 +15,6 @@
 
 #import "UIColor+XZGenerate.h"
 
+#import "UIView+XZFrame.h"
+
 #endif /* XZCategory_h */

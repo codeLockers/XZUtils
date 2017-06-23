@@ -19,6 +19,7 @@
 		97A39DC51EFD0694008763EC /* NSDate+XZComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DC11EFD0694008763EC /* NSDate+XZComponent.m */; };
 		97A39DC61EFD0694008763EC /* NSDate+XZFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DC31EFD0694008763EC /* NSDate+XZFunction.m */; };
 		97A39DC91EFD07CA008763EC /* UIColor+XZGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */; };
+		97A39DCC1EFD0A11008763EC /* UIView+XZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		97A39DC41EFD0694008763EC /* XZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCategory.h; sourceTree = "<group>"; };
 		97A39DC71EFD07CA008763EC /* UIColor+XZGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XZGenerate.h"; sourceTree = "<group>"; };
 		97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XZGenerate.m"; sourceTree = "<group>"; };
+		97A39DCA1EFD0A11008763EC /* UIView+XZFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZFrame.h"; sourceTree = "<group>"; };
+		97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				97A39D871EFCAF9A008763EC /* NSDate+XZFormat.m */,
 				97A39DC71EFD07CA008763EC /* UIColor+XZGenerate.h */,
 				97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */,
+				97A39DCA1EFD0A11008763EC /* UIView+XZFrame.h */,
+				97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			files = (
 				97A39DC61EFD0694008763EC /* NSDate+XZFunction.m in Sources */,
 				97A39D721EFCAEEB008763EC /* ViewController.m in Sources */,
+				97A39DCC1EFD0A11008763EC /* UIView+XZFrame.m in Sources */,
 				97A39DC91EFD07CA008763EC /* UIColor+XZGenerate.m in Sources */,
 				97A39DC51EFD0694008763EC /* NSDate+XZComponent.m in Sources */,
 				97A39D8F1EFCAFCD008763EC /* XZUtils.m in Sources */,
