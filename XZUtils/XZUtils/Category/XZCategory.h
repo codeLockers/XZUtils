@@ -9,9 +9,6 @@
 #ifndef XZCategory_h
 #define XZCategory_h
 
-#import "NSDate+XZFormat.h"
-#import "NSDate+XZComponent.h"
-#import "NSDate+XZFunction.h"
 
 #import "UIColor+XZGenerate.h"
 
@@ -21,13 +18,13 @@
 
 #import "UIImage+XZBitmap.h"
 
-#import "NSString+XZSize.h"
+
 
 #import "NSAttributedString+XZGenerate.h"
 
-#import "NSDictionary+XZJson.h"
 
-#import "NSArray+XZJson.h"
+
+
 
 #import "UIDevice+XZInfo.h"
 

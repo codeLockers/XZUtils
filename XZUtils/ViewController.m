@@ -7,10 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NSAttributedString+XZGenerate.h"
-#import "XZMacros.h"
-#import "UIScreen+XZSize.h"
-#import "UIScreen+XZSize.h"
 typedef void (^Block)(void); //定义一个block返回
 
 @interface ViewController ()
@@ -29,13 +25,6 @@ typedef void (^Block)(void); //定义一个block返回
 //    a = nil;
 
 //    NSLog(@"%f",[UIScreen mainScreen].scale);
-    
-    if ([UIScreen mainScreen].xz_isInch_4_7) {
-        NSLog(@"ok");
-    }
-    if ([UIScreen mainScreen].xz_isZoomModel) {
-        NSLog(@"fafaf");
-    }
     
     
 //    xz_block_safe(a)
