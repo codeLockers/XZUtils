@@ -10,6 +10,6 @@
 
 @interface NSArray (XZJson)
 
-- (NSString *)jsonString;
-+ (NSArray *)arrayFromJsonString:(NSString *)string;
+- (NSString *)xz_jsonString;
++ (NSArray *)xz_arrayFromJsonString:(NSString *)string;
 @end

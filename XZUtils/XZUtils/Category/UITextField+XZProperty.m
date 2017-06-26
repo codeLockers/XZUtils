@@ -9,11 +9,11 @@
 #import "UITextField+XZProperty.h"
 
 @implementation UITextField (XZProperty)
-- (void)setPlaceHolderColor:(UIColor *)placeHolderColor {
-    [self setValue:placeHolderColor forKeyPath:@"placeholderLabel.textColor"];
+- (void)setXz_placeHolderColor:(UIColor *)xz_placeHolderColor {
+    [self setValue:xz_placeHolderColor forKeyPath:@"placeholderLabel.textColor"];
 }
 
-- (UIColor *)placeHolderColor {
+- (UIColor *)xz_placeHolderColor {
     return [self valueForKeyPath:@"placeholderLabel.textColor"];
 }
 @end

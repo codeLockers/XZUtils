@@ -1,5 +1,5 @@
 //
-//  UITextField+XZProperty.h
+//  UIScreen+XZSize.h
 //  XZUtils
 //
 //  Created by codeLocker on 2017/6/26.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (XZProperty)
-@property (nonatomic, strong) UIColor *xz_placeHolderColor;
+@interface UIScreen (XZSize)
+
++ (CGFloat)xz_width;
++ (CGFloat)xz_height;
++ (CGSize)xz_size;
+
 @end

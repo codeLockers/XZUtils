@@ -31,4 +31,8 @@
 
 #import "UIDevice+XZInfo.h"
 
+#import "UITextField+XZProperty.h"
+
+#import "NSBundle+XZApp.h"
+
 #endif /* XZCategory_h */
