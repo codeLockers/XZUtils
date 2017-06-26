@@ -21,5 +21,12 @@
 
 #import "UIImage+XZBitmap.h"
 
+#import "NSString+XZSize.h"
+
+#import "NSAttributedString+XZGenerate.h"
+
+#import "NSDictionary+XZJson.h"
+
+#import "NSArray+XZJson.h"
 
 #endif /* XZCategory_h */

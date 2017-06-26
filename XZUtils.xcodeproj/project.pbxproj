@@ -22,6 +22,10 @@
 		97A39DCC1EFD0A11008763EC /* UIView+XZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DCB1EFD0A11008763EC /* UIView+XZFrame.m */; };
 		97A39DCF1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */; };
 		97A39DD21EFD0DC4008763EC /* UIImage+XZBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */; };
+		97A39DD51EFD119D008763EC /* NSString+XZSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39DD41EFD119D008763EC /* NSString+XZSize.m */; };
+		97CE3BA11F00A18C00F14B53 /* NSAttributedString+XZGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA01F00A18C00F14B53 /* NSAttributedString+XZGenerate.m */; };
+		97CE3BA41F00B0A800F14B53 /* NSDictionary+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA31F00B0A800F14B53 /* NSDictionary+XZJson.m */; };
+		97CE3BA71F00B13100F14B53 /* NSArray+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,14 @@
 		97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XZNavigationBar.m"; sourceTree = "<group>"; };
 		97A39DD01EFD0DC4008763EC /* UIImage+XZBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZBitmap.h"; sourceTree = "<group>"; };
 		97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZBitmap.m"; sourceTree = "<group>"; };
+		97A39DD31EFD119D008763EC /* NSString+XZSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZSize.h"; sourceTree = "<group>"; };
+		97A39DD41EFD119D008763EC /* NSString+XZSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZSize.m"; sourceTree = "<group>"; };
+		97CE3B9F1F00A18C00F14B53 /* NSAttributedString+XZGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+XZGenerate.h"; sourceTree = "<group>"; };
+		97CE3BA01F00A18C00F14B53 /* NSAttributedString+XZGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+XZGenerate.m"; sourceTree = "<group>"; };
+		97CE3BA21F00B0A800F14B53 /* NSDictionary+XZJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZJson.h"; sourceTree = "<group>"; };
+		97CE3BA31F00B0A800F14B53 /* NSDictionary+XZJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZJson.m"; sourceTree = "<group>"; };
+		97CE3BA51F00B13100F14B53 /* NSArray+XZJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZJson.h"; sourceTree = "<group>"; };
+		97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZJson.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,8 @@
 				97A39DC31EFD0694008763EC /* NSDate+XZFunction.m */,
 				97A39D861EFCAF9A008763EC /* NSDate+XZFormat.h */,
 				97A39D871EFCAF9A008763EC /* NSDate+XZFormat.m */,
+				97CE3BA21F00B0A800F14B53 /* NSDictionary+XZJson.h */,
+				97CE3BA31F00B0A800F14B53 /* NSDictionary+XZJson.m */,
 				97A39DC71EFD07CA008763EC /* UIColor+XZGenerate.h */,
 				97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */,
 				97A39DCA1EFD0A11008763EC /* UIView+XZFrame.h */,
@@ -138,6 +152,12 @@
 				97A39DCE1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m */,
 				97A39DD01EFD0DC4008763EC /* UIImage+XZBitmap.h */,
 				97A39DD11EFD0DC4008763EC /* UIImage+XZBitmap.m */,
+				97A39DD31EFD119D008763EC /* NSString+XZSize.h */,
+				97A39DD41EFD119D008763EC /* NSString+XZSize.m */,
+				97CE3B9F1F00A18C00F14B53 /* NSAttributedString+XZGenerate.h */,
+				97CE3BA01F00A18C00F14B53 /* NSAttributedString+XZGenerate.m */,
+				97CE3BA51F00B13100F14B53 /* NSArray+XZJson.h */,
+				97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -240,13 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CE3BA41F00B0A800F14B53 /* NSDictionary+XZJson.m in Sources */,
 				97A39DC61EFD0694008763EC /* NSDate+XZFunction.m in Sources */,
+				97CE3BA71F00B13100F14B53 /* NSArray+XZJson.m in Sources */,
 				97A39D721EFCAEEB008763EC /* ViewController.m in Sources */,
 				97A39DCC1EFD0A11008763EC /* UIView+XZFrame.m in Sources */,
 				97A39DCF1EFD0CBA008763EC /* UINavigationController+XZNavigationBar.m in Sources */,
 				97A39DC91EFD07CA008763EC /* UIColor+XZGenerate.m in Sources */,
 				97A39DC51EFD0694008763EC /* NSDate+XZComponent.m in Sources */,
+				97A39DD51EFD119D008763EC /* NSString+XZSize.m in Sources */,
 				97A39D8F1EFCAFCD008763EC /* XZUtils.m in Sources */,
+				97CE3BA11F00A18C00F14B53 /* NSAttributedString+XZGenerate.m in Sources */,
 				97A39D881EFCAF9A008763EC /* NSDate+XZFormat.m in Sources */,
 				97A39DD21EFD0DC4008763EC /* UIImage+XZBitmap.m in Sources */,
 				97A39D8C1EFCAFC2008763EC /* XZFileManager.m in Sources */,
