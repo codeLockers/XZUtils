@@ -29,4 +29,6 @@
 
 #import "NSArray+XZJson.h"
 
+#import "UIDevice+XZInfo.h"
+
 #endif /* XZCategory_h */

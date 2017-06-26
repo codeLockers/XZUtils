@@ -26,6 +26,7 @@
 		97CE3BA11F00A18C00F14B53 /* NSAttributedString+XZGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA01F00A18C00F14B53 /* NSAttributedString+XZGenerate.m */; };
 		97CE3BA41F00B0A800F14B53 /* NSDictionary+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA31F00B0A800F14B53 /* NSDictionary+XZJson.m */; };
 		97CE3BA71F00B13100F14B53 /* NSArray+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */; };
+		97CE3BAA1F00B57100F14B53 /* UIDevice+XZInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		97CE3BA31F00B0A800F14B53 /* NSDictionary+XZJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZJson.m"; sourceTree = "<group>"; };
 		97CE3BA51F00B13100F14B53 /* NSArray+XZJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZJson.h"; sourceTree = "<group>"; };
 		97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZJson.m"; sourceTree = "<group>"; };
+		97CE3BA81F00B57100F14B53 /* UIDevice+XZInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZInfo.h"; sourceTree = "<group>"; };
+		97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZInfo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				97CE3BA01F00A18C00F14B53 /* NSAttributedString+XZGenerate.m */,
 				97CE3BA51F00B13100F14B53 /* NSArray+XZJson.h */,
 				97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */,
+				97CE3BA81F00B57100F14B53 /* UIDevice+XZInfo.h */,
+				97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CE3BAA1F00B57100F14B53 /* UIDevice+XZInfo.m in Sources */,
 				97CE3BA41F00B0A800F14B53 /* NSDictionary+XZJson.m in Sources */,
 				97A39DC61EFD0694008763EC /* NSDate+XZFunction.m in Sources */,
 				97CE3BA71F00B13100F14B53 /* NSArray+XZJson.m in Sources */,
