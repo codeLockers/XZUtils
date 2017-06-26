@@ -24,7 +24,6 @@
 		97CE3BAD1F00CEA500F14B53 /* UITextField+XZProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BAC1F00CEA500F14B53 /* UITextField+XZProperty.m */; };
 		97CE3BB01F00D09A00F14B53 /* NSBundle+XZApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BAF1F00D09A00F14B53 /* NSBundle+XZApp.m */; };
 		97CE3BB61F00E96100F14B53 /* NSUserDefaults+XZStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BB51F00E96100F14B53 /* NSUserDefaults+XZStorage.m */; };
-		97CE3BBC1F01027300F14B53 /* XZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BBB1F01027300F14B53 /* XZUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +61,6 @@
 		97CE3BAF1F00D09A00F14B53 /* NSBundle+XZApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+XZApp.m"; sourceTree = "<group>"; };
 		97CE3BB41F00E96100F14B53 /* NSUserDefaults+XZStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+XZStorage.h"; sourceTree = "<group>"; };
 		97CE3BB51F00E96100F14B53 /* NSUserDefaults+XZStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+XZStorage.m"; sourceTree = "<group>"; };
-		97CE3BBA1F01027300F14B53 /* XZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUtils.h; sourceTree = "<group>"; };
-		97CE3BBB1F01027300F14B53 /* XZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +128,6 @@
 		97A39D821EFCAF80008763EC /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				97CE3BBA1F01027300F14B53 /* XZUtils.h */,
-				97CE3BBB1F01027300F14B53 /* XZUtils.m */,
 				97A39DC41EFD0694008763EC /* XZCategory.h */,
 				97A39DC71EFD07CA008763EC /* UIColor+XZGenerate.h */,
 				97A39DC81EFD07CA008763EC /* UIColor+XZGenerate.m */,
@@ -260,7 +255,6 @@
 				97A39D8C1EFCAFC2008763EC /* XZFileManager.m in Sources */,
 				97A39D6F1EFCAEEB008763EC /* AppDelegate.m in Sources */,
 				97A39D6C1EFCAEEB008763EC /* main.m in Sources */,
-				97CE3BBC1F01027300F14B53 /* XZUtils.m in Sources */,
 				97CE3BB01F00D09A00F14B53 /* NSBundle+XZApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
