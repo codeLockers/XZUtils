@@ -21,4 +21,5 @@
 
 #import "UIImage+XZBitmap.h"
 
+
 #endif /* XZCategory_h */

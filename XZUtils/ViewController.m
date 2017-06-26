@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "NSAttributedString+XZGenerate.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *testLab;
 
 @end
 
@@ -16,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    NSAttributedString *string = [[NSAttributedString alloc] initWithString:@"aaa"];
+//    NSAttributedString *b = [string xz_setColor:[UIColor redColor] inRange:NSMakeRange(0, 1)];
+//    NSLog(@"%@",NSStringFromClass([b class]));
+//    self.testLab.attributedText = b;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
