@@ -11,4 +11,5 @@
 @interface UIDevice (XZInfo)
 
 @property (nonatomic, readonly) NSString *xz_platform;
+@property (nonatomic, readonly) CGFloat xz_systemVersion;
 @end

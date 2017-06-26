@@ -132,4 +132,8 @@
     return platform;
 }
 
+- (CGFloat)xz_systemVersion {
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
 @end

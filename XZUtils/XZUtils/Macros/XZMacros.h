@@ -9,5 +9,36 @@
 #ifndef XZMacros_h
 #define XZMacros_h
 
+// gcd sync
+#define xz_dispatch_main_sync_safe(block)\
+if (block == nil) {\
+    NSLog(@"block is nil");\
+    return;\
+}\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
+
+// gcd async
+#define xz_dispatch_main_async_safe(block)\
+if (block == nil) {\
+NSLog(@"block is nil");\
+return;\
+}\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+// safe block
+#define xz_block_safe(block)\
+if (block != nil) {\
+block();\
+} else {\
+    NSLog(@"block is nil");\
+}
 
 #endif /* XZMacros_h */

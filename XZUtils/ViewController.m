@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 #import "NSAttributedString+XZGenerate.h"
+#import "XZMacros.h"
+#import "UIScreen+XZSize.h"
+#import "UIScreen+XZSize.h"
+typedef void (^Block)(void); //定义一个block返回
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *testLab;
@@ -18,6 +22,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    Block a = ^{
+//        NSLog(@"xuzhang");
+//    };
+//    a = nil;
+
+//    NSLog(@"%f",[UIScreen mainScreen].scale);
+    
+    if ([UIScreen mainScreen].xz_isInch_4_7) {
+        NSLog(@"ok");
+    }
+    if ([UIScreen mainScreen].xz_isZoomModel) {
+        NSLog(@"fafaf");
+    }
+    
+    
+//    xz_block_safe(a)
+//    xz_dispatch_main_async_safe(a)
+//    xz_block_safe(a)
+    
+//    NSLog(@"%@",NSStringFromCGSize([UIScreen mainScreen].xz_size));
+    
+    
     
 //    NSAttributedString *string = [[NSAttributedString alloc] initWithString:@"aaa"];
 //    NSAttributedString *b = [string xz_setColor:[UIColor redColor] inRange:NSMakeRange(0, 1)];
