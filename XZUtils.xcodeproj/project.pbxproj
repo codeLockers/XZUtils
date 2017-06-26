@@ -13,6 +13,7 @@
 		9751A6C91F01092E00744CEF /* NSDate+XZFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751A6C11F01092E00744CEF /* NSDate+XZFunction.m */; };
 		9751A6CA1F01092E00744CEF /* NSDictionary+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751A6C31F01092E00744CEF /* NSDictionary+XZJson.m */; };
 		9751A6CB1F01092E00744CEF /* UIScreen+XZSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751A6C51F01092E00744CEF /* UIScreen+XZSize.m */; };
+		9751A6CE1F010A0100744CEF /* XZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9751A6CD1F010A0100744CEF /* XZUtils.m */; };
 		97A39D6C1EFCAEEB008763EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39D6B1EFCAEEB008763EC /* main.m */; };
 		97A39D6F1EFCAEEB008763EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39D6E1EFCAEEB008763EC /* AppDelegate.m */; };
 		97A39D721EFCAEEB008763EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A39D711EFCAEEB008763EC /* ViewController.m */; };
@@ -45,6 +46,8 @@
 		9751A6C31F01092E00744CEF /* NSDictionary+XZJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZJson.m"; sourceTree = "<group>"; };
 		9751A6C41F01092E00744CEF /* UIScreen+XZSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+XZSize.h"; sourceTree = "<group>"; };
 		9751A6C51F01092E00744CEF /* UIScreen+XZSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+XZSize.m"; sourceTree = "<group>"; };
+		9751A6CC1F010A0100744CEF /* XZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUtils.h; sourceTree = "<group>"; };
+		9751A6CD1F010A0100744CEF /* XZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUtils.m; sourceTree = "<group>"; };
 		97A39D671EFCAEEB008763EC /* XZUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A39D6B1EFCAEEB008763EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97A39D6D1EFCAEEB008763EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 		97A39D811EFCAF80008763EC /* XZUtils */ = {
 			isa = PBXGroup;
 			children = (
+				9751A6CC1F010A0100744CEF /* XZUtils.h */,
+				9751A6CD1F010A0100744CEF /* XZUtils.m */,
 				97A39D821EFCAF80008763EC /* Category */,
 				97A39D831EFCAF80008763EC /* Macros */,
 				97A39D841EFCAF80008763EC /* Manager */,
@@ -291,6 +296,7 @@
 				9751A6C71F01092E00744CEF /* NSDate+XZComponent.m in Sources */,
 				9751A6C81F01092E00744CEF /* NSDate+XZFormat.m in Sources */,
 				9751A6CA1F01092E00744CEF /* NSDictionary+XZJson.m in Sources */,
+				9751A6CE1F010A0100744CEF /* XZUtils.m in Sources */,
 				97CE3BB01F00D09A00F14B53 /* NSBundle+XZApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
