@@ -28,6 +28,7 @@
 		97CE3BA71F00B13100F14B53 /* NSArray+XZJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA61F00B13100F14B53 /* NSArray+XZJson.m */; };
 		97CE3BAA1F00B57100F14B53 /* UIDevice+XZInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */; };
 		97CE3BAD1F00CEA500F14B53 /* UITextField+XZProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BAC1F00CEA500F14B53 /* UITextField+XZProperty.m */; };
+		97CE3BB01F00D09A00F14B53 /* NSBundle+XZApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE3BAF1F00D09A00F14B53 /* NSBundle+XZApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZInfo.m"; sourceTree = "<group>"; };
 		97CE3BAB1F00CEA500F14B53 /* UITextField+XZProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+XZProperty.h"; sourceTree = "<group>"; };
 		97CE3BAC1F00CEA500F14B53 /* UITextField+XZProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XZProperty.m"; sourceTree = "<group>"; };
+		97CE3BAE1F00D09A00F14B53 /* NSBundle+XZApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+XZApp.h"; sourceTree = "<group>"; };
+		97CE3BAF1F00D09A00F14B53 /* NSBundle+XZApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+XZApp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 				97CE3BA91F00B57100F14B53 /* UIDevice+XZInfo.m */,
 				97CE3BAB1F00CEA500F14B53 /* UITextField+XZProperty.h */,
 				97CE3BAC1F00CEA500F14B53 /* UITextField+XZProperty.m */,
+				97CE3BAE1F00D09A00F14B53 /* NSBundle+XZApp.h */,
+				97CE3BAF1F00D09A00F14B53 /* NSBundle+XZApp.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				97A39D8C1EFCAFC2008763EC /* XZFileManager.m in Sources */,
 				97A39D6F1EFCAEEB008763EC /* AppDelegate.m in Sources */,
 				97A39D6C1EFCAEEB008763EC /* main.m in Sources */,
+				97CE3BB01F00D09A00F14B53 /* NSBundle+XZApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
