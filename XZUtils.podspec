@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
   s.subspec 'Category' do |category|
       category.source_files = "XZUtils/XZUtils/Category/*.{h,m,mm,c}"
       category.public_header_files =  "XZUtils/XZUtils/Category/*.h"
+      category.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/Utils"}
     end
   
   s.subspec 'Macros' do |macros|
