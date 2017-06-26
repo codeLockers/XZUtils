@@ -7,7 +7,7 @@
 //
 
 #import "NSDictionary+XZJson.h"
-#import "XZUtils.h"
+//#import "XZUtils.h"
 
 @implementation NSDictionary (XZJson)
 
@@ -19,7 +19,7 @@
 
 + (NSDictionary *)xz_dictionaryFromJsonString:(NSString *)string{
 
-    if ([XZUtils isEmptyString:string]) return nil;
+//    if ([XZUtils isEmptyString:string]) return nil;
     NSData *jsonData = [string dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingAllowFragments error:nil];
     return dic;
