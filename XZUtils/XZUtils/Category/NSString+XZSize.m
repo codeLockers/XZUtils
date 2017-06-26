@@ -7,14 +7,14 @@
 //
 
 #import "NSString+XZSize.h"
-//#import "XZUtils.h"
+#import "XZUtils.h"
 
 @implementation NSString (XZSize)
 - (CGFloat)xz_heightWithFont:(UIFont *)font width:(CGFloat)width linespace:(CGFloat)linespace mode:(NSLineBreakMode)lineBrekMode {
     
-//    if ([XZUtils isEmptyString:self]) {
-//        return 0;
-//    }
+    if ([XZUtils isEmptyString:self]) {
+        return 0;
+    }
     
     NSMutableParagraphStyle *paragraphStyle = ({
         

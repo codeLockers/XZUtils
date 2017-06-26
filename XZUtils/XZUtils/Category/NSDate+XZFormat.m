@@ -7,7 +7,7 @@
 //
 
 #import "NSDate+XZFormat.h"
-//#import "XZUtils.h"
+#import "XZUtils.h"
 
 NSString * const XZ_DateFormat_Default = @"yyyy-MM-dd HH:mm:ss";
 
@@ -18,21 +18,21 @@ NSString * const XZ_DateFormat_Default = @"yyyy-MM-dd HH:mm:ss";
 }
 
 - (NSString *)xz_stringForFormat:(NSString *)format {
-//    if ([XZUtils isEmptyString:format]) {
-//        format = XZ_DateFormat_Default;
-//    }
+    if ([XZUtils isEmptyString:format]) {
+        format = XZ_DateFormat_Default;
+    }
     NSDateFormatter *dateFormat = [NSDateFormatter new];
     [dateFormat setDateFormat:format];
     return [dateFormat stringFromDate:self];
 }
 
 + (NSDate *)xz_dateFromDateStr:(NSString *)dateStr forFormat:(NSString *)format {
-//    if ([XZUtils isEmptyString:dateStr]) {
-//        return nil;
-//    }
-//    if ([XZUtils isEmptyString:format]) {
-//        format = XZ_DateFormat_Default;
-//    }
+    if ([XZUtils isEmptyString:dateStr]) {
+        return nil;
+    }
+    if ([XZUtils isEmptyString:format]) {
+        format = XZ_DateFormat_Default;
+    }
     NSDateFormatter *dateFormat = [NSDateFormatter new];
     [dateFormat setDateFormat:format];
     return [dateFormat dateFromString:dateStr];
