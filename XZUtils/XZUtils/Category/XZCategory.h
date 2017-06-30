@@ -25,6 +25,7 @@
 #import "UITextField+XZProperty.h"
 #import "NSBundle+XZApp.h"
 #import "NSUserDefaults+XZStorage.h"
-
+#import "NSString+XZFormat.h"
+#import "UIApplication+XZFunction.h"
 
 #endif /* XZCategory_h */

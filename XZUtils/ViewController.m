@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "XZMacros.h"
+#import "NSData+XZConversion.h"
+
 typedef void (^Block)(void); //定义一个block返回
 
 @interface ViewController ()
@@ -19,21 +22,25 @@ typedef void (^Block)(void); //定义一个block返回
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    Block a = ^{
-//        NSLog(@"xuzhang");
-//    };
-//    a = nil;
-
-//    NSLog(@"%f",[UIScreen mainScreen].scale);
     
+    Byte value[13]={0};
+    value[0]=0x43;
+    value[1]=0x47;
+    value[2]=0x01;//命令
+    value[3]=0x01;
     
-//    xz_block_safe(a)
-//    xz_dispatch_main_async_safe(a)
-//    xz_block_safe(a)
+    value[4]=0x08;
+    value[5]=0x01;
+    value[6]=0x02;
+    value[7]=0x03;
+    value[8]=0x04;
+    value[9]=0x05;
+    value[10]=0x06;
+    value[11]=0x07;
+    value[12]=0x08;
     
-//    NSLog(@"%@",NSStringFromCGSize([UIScreen mainScreen].xz_size));
-    
-    
+    NSData *data = [NSData dataWithBytes:&value length:sizeof(value)];
+    XZLog(@"%@",[data xz_hexadecimalString]);
     
 //    NSAttributedString *string = [[NSAttributedString alloc] initWithString:@"aaa"];
 //    NSAttributedString *b = [string xz_setColor:[UIColor redColor] inRange:NSMakeRange(0, 1)];
