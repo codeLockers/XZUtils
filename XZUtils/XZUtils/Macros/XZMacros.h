@@ -36,7 +36,6 @@ dispatch_async(dispatch_get_main_queue(), block);\
 if (block != nil) {\
 block();\
 } else {\
-    NSLog(@"block is nil");\
 }
 
 //self

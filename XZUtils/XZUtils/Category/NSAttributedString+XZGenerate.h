@@ -20,6 +20,7 @@
 - (NSAttributedString *)xz_setUnderLine:(NSUnderlineStyle)lineStyle color:(UIColor *)color inRange:(NSRange)range;
 - (NSAttributedString *)xz_setKern:(CGFloat)kern inRange:(NSRange)range;
 - (NSAttributedString *)xz_setParagraphStyle:(NSParagraphStyle *)paragraphStyle inRange:(NSRange)range;
+- (NSAttributedString *)xz_setLinespace:(CGFloat)linespace inRange:(NSRange)range;
 - (NSAttributedString *)xz_setEffect:(NSString *)effect inRange:(NSRange)range;
 - (NSAttributedString *)xz_setLigature:(BOOL)isLigature inRange:(NSRange)range;
 - (NSAttributedString *)xz_setObliqueness:(CGFloat)obliqueness inRange:(NSRange)range;

@@ -66,6 +66,12 @@
     return [string copy];
 }
 
+- (NSAttributedString *)xz_setLinespace:(CGFloat)linespace inRange:(NSRange)range {
+    NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
+    style.lineSpacing = linespace;
+    return [self xz_setParagraphStyle:style inRange:range];
+}
+
 - (NSAttributedString *)xz_setEffect:(NSString *)effect inRange:(NSRange)range{
     NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self];
     [string addAttribute:NSTextEffectAttributeName value:effect range:range];
