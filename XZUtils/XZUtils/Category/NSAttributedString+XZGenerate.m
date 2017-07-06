@@ -114,6 +114,16 @@
     return [string copy];
 }
 
+- (NSAttributedString *)xz_setImage:(UIImage *)image bound:(CGRect)bound atIndex:(NSInteger)index {
+    NSTextAttachment *attachment = [[NSTextAttachment alloc] init];
+    attachment.image = image;
+    attachment.bounds = bound;
+    NSAttributedString *imageStr = [NSAttributedString attributedStringWithAttachment:attachment];
+    NSMutableAttributedString *mutStr = [self mutableCopy];
+    [mutStr insertAttributedString:imageStr atIndex:0];
+    return [mutStr copy];
+}
+
 - (NSAttributedString *)xz_setAttributes:(NSDictionary *)dic inRange:(NSRange)range{
     NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self];
     [string addAttributes:dic range:range];

@@ -28,6 +28,7 @@
 - (NSAttributedString *)xz_setExpansion:(CGFloat)expansion inRange:(NSRange)range;
 - (NSAttributedString *)xz_setURL:(NSURL *)url inRange:(NSRange)range;
 - (NSAttributedString *)xz_setAttacment:(NSTextAttachment *)attachment inRange:(NSRange)range;
+- (NSAttributedString *)xz_setImage:(UIImage *)image bound:(CGRect)bound atIndex:(NSInteger)index;
 - (NSAttributedString *)xz_setAttributes:(NSDictionary *)dic inRange:(NSRange)range;
 
 @end
