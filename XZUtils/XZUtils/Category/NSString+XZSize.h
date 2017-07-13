@@ -13,4 +13,5 @@
 
 - (CGFloat)xz_heightWithFont:(UIFont *)font width:(CGFloat)width linespace:(CGFloat)linespace mode:(NSLineBreakMode)lineBrekMode;
 
+- (CGSize)xz_sizeWithFont:(UIFont *)font width:(CGFloat)width height:(CGFloat)height linespace:(CGFloat)linespace mode:(NSLineBreakMode)lineBrekMode;
 @end
